@@ -32,12 +32,12 @@ nav a{
   color: white;
   font-family: 'Questrial',cursive;
   font-size: 1em;
-  padding: 1.3em;
+  /*padding: 1.3em;*/
+  padding:1.1em;
 }
 nav a:hover{
   color: #2056ac;
   background-color: white;
-  padding:1.1em;
   border-radius: 1em 1em 0 0;
 }
 nav li{
@@ -47,7 +47,7 @@ nav li{
   padding-left: 1.5em;
 }
 main{
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
 }
@@ -62,7 +62,7 @@ img{
 h2{
   margin-bottom: 1em;
   font-family: 'Questrial',cursive;
-  font-size: 45px;
+  font-size: 3em;
   font-weight: bold;
   color: #3D3D3D;
 }
@@ -109,7 +109,7 @@ article a{
   padding: 0.8em;
 }
 .hauteur{
-  height: 20em;
+  padding: 4em;
 }
 .trois{
   width: 24%;
@@ -171,4 +171,27 @@ footer i{
 .icones{
   width: 100%;
   text-align: center;
+}
+@media (max-width:890px){
+  .article{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4em;
+    margin-top: 2em;
+  }
+  .trois{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4em;
+  }
+  .contact div{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4em;
+    margin-top: 2em;
+  }
+  nav li{
+    width: 100%;
+    margin: auto;
+  }
 }
